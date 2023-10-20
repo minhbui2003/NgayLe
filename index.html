@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20/10</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #container {
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        font-size: 36px; /* Điều chỉnh kích thước của tiêu đề */
+        text-shadow: 2px 2px 4px #000; /* Hiệu ứng bóng đổ */
+    }
+
+    #message {
+        color: white;
+        font-size: 24px;
+        text-shadow: 1px 1px 2px #000; /* Hiệu ứng bóng đổ */
+    }
+
+    #openButton {
+        background-color: #3498db;
+        color: white;
+        padding: 15px 30px;
+        font-size: 24px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    #openButton:hover {
+        background-color: #2980b9;
+    }
+</style>
+<body>
+    <div id="container">
+        <h1>Happy Women's Day</h1>
+        <p id="message">Gửi lời chúc 20/10 cho người yêu bé nhỏ của anh! Chúc em luôn xinh đẹp, hạnh phúc, luôn vui cười, học thiệc giỏi càng nhiều A+, đặc biệt không suy nghĩ nhiều gây đau đầu, ăn uống điều độ hơn nay đang có sự tiến triển và điều cuối cùng là anh yêu của em sẽ luôn ở cạnh bên chăm lo, quan tâm, lo lắng cho em và yêu thương em suốt đời nhoaaa !!!</p>
+        <button id="openButton">TẶNG EM</button><br><br>
+        <img style="height: 400px;width: 270px; border-radius: 10px;" src="./img/em.jpg" alt="Your Image Description">
+    </div>
+
+    <script>
+        var openButton = document.getElementById("openButton");
+
+        openButton.addEventListener("click", function() {
+            // Điều hướng đến trang mới trong thư mục
+            window.location.href = "./html/ngayle.html"; // Thay đổi tên trang mới
+        });
+    </script>
+</body>
+</html>
